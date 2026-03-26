@@ -7,7 +7,8 @@ class Config:
     TRAIN_CSV = os.path.join(basedir, 'data','data', 'processed_train.csv')
     IMAGES_ROOT = os.path.join(basedir, 'data','data', 'images')
     TELEMETRY_ROOT = os.path.join(basedir, 'data','data', 'telemetry')
-    VOCAB_SIZE = r"D:\Paper\Traffic_Risk_Project\data\data\vocab.json"
+    VOCAB_SIZE = os.path.join(basedir, 'src','model', 'build_vocal.py')
+    
     # cấu hình model
     # Kích thước ảnh đầu vào 
     IMAGE_SIZE = (90, 160)
